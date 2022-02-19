@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+div {
+    box-sizing: border-box;
+}
+p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.container {
+    width: 400px;
+    margin-top: 120px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+input[type="checkbox"]{
+    margin: 0;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+}
+input[type="text"] {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.name {
+    width: 100%;
+}
+.f-name {
+    width: 45%;
+    float: left;
+}
+.l-name {
+    float: right;
+    width: 45%;
+}
+button {
+    float: right;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: -5px;
+    color: white;
+    background-color: orange;
+    border: 0px;
+    cursor: pointer;
+}
+input[type="checkbox"],label {
+    cursor: pointer;
+}
